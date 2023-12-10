@@ -1,0 +1,21 @@
+java --module-path "./libs" --add-modules javafx.controls -cp "./libs/*;./sample-1.0.0.jar" org.openjfx.MultiThreadedDownloadManager
+
+
+
+handle connectIionTimeout
+handle 503 error
+
+also add functionality to retry particular part incase of failiure
+
+1) handle encoded or decoded url
+2) Copy from clipboard
+3) Handle if my url supports range header or not otherwise use single thread
+4) set temp download location
+5) add logs location
+
+
+https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-desktop-amd64.iso
+
+connection refused
+
+to create native image native-image -jar JDownloadM-1.0-SNAPSHOT-shaded.jar finalAPP
